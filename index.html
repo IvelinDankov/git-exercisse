@@ -14,12 +14,16 @@
       <h1>Welcome to My Web Page</h1>
       <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsum, ad temporibus, dolor
         similique totam molestias, illo quidem voluptatum hic iure culpa officiis?</p>
-      <button ondblclick="onClick()" type="button">Click</button>
+      <button id="button" class="button" ondblclick="onClick()" type="button">Click</button>
     </main>
 
-    <script src="script.js">
+    <script>
       function onClick() {
-        window.alert('Hellow')
+        const btn = document.getElementById("button")
+        btn.addEventListener('click', function () {
+          window.alert('Hellow')
+
+        })
       }
 
     </script>
