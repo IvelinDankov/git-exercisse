@@ -7,6 +7,6 @@
 # 03 - git push
 
 - Repeat commands
-  [ ] git add .
-  [ ] git commit -m "some msg"
-  [ ] git push
+- [ ] git add .
+- [ ] git commit -m "some msg"
+- [ ] git push
