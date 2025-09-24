@@ -1,2 +1,4 @@
 Git commands 
- - 
+ - some git commands 
+ - 01 Git command - git add .
+ 
